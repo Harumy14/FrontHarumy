@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style1.css">
+        <script src="js/script1.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <img class="imglogo" src="img/logo3.png" alt="">
+            <div class="logo">
+                <h1 class="h1">Quiz de profissões</h1>
+            </div>
+
+            <nav>
+                <button class="entrar">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas">Contas</button>
+            </nav>
+        </header>
+        <!--pw parte de cima junto com a pesquisa-->
+    <div class="pw">
+        <button class="bt1">Home</button>
+        <button class="bt2">Criar perfil </button>
+        <button class="bt3">Explorar </button>
+        <button class="bt4">Artigos</button>
+
+        <input type="text" name="nome" id="nome" value="Seu Nome"/> 
+    </div>
+
+        <section class="banner">
+            <tr>
+                <img src="img/TESTE VOCACIONAL 1.jpg" alt="Imagem1" id="img1" onclick="showModalImg1()"></img>
+            </tr>
+            <div id="myModalImg1" class="modalimg1">
+                <div class="modal-content-img1">
+                    <span class="close" onclick="hideModalImg1('Img1')">&times;</span>
+                    <h3>★O qᴜᴇ é ᴜᴍ Qᴜɪᴢ ᴅᴇ Pʀᴏꜰɪꜱꜱõᴇꜱ?★</h3>
+                    <i2>O Quiz de Profissões é um site que utilizamos para avaliar as<br>
+                        características, habilidades, aptidões e preferências de um indivíduo em relação<br>
+                        ao ambiente de trabalho. Geralmente, consiste em uma série de perguntas ou<br>
+                        atividades projetadas para identificar os traços de personalidade, estilo de trabalho,<br>
+                        valores e interesses do participante.
+                    </i2>
+                    <h3>★Fᴀᴢᴇʀ ᴏ Qᴜɪᴢ ᴅᴇ Pʀᴏꜰɪꜱꜱõeꜱ Oꜰᴇʀᴇᴄᴇ Dɪᴠᴇʀꜱᴏꜱ BᴇɴᴇꜰÍᴄɪᴏꜱ?★</h3>
+                    <i2>Sim, fazer o Quiz de Profissões oferecerá benefícios como:<br>
+                        Autocnhecimento;<br>
+                        Orientação profissional;<br>
+                        Direcionamento na escolha da carreira;<br>
+                        Identificação de áreas de melhoria;<br>
+                        Auento da autoconfiança.
+                    </i2>
+                </div>
+            </div>
+            <h2>Descubra mais sobre sua profissão!</h2>
+            <p>Clique na imagem a cima &#128070;.</p>
+        </section>
+
+        <section class="produtos">
+             <h2>Quises em Destaque</h2>
+            <div class="produto-lista">
+                 <div class="produto-item">
+                     <img src="img/img2.jfif" alt="Produto 1">
+                     <h3> Analise de profições</h3>
+                     <button class="b1" onclick="redirectUm()">Começar</button><!--Começo no index2_p1.html, fim no index7_p6-->
+                </div>
+                <div class="produto-item">
+                     <img src="img/Analise Psicológico.png" alt="Produto 2">
+                     <h3>Analise Psicológico</h3>
+                     <button class="b2" onclick="redirectDois()">Começar</button><!--Começo no indexInicio2.htl, fim no-->
+                </div>
+                <div class="produto-item">
+                     <img src="img/Area da Progamação.png" alt="Produto 3">
+                     <h3>Area da Progamação</h3>
+                     <button class="b3" onclick="redirectTres()">Começar</button>
+                </div>
+
+                 
+                 <!-- Adicione mais quises conforme necessário -->
+     
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

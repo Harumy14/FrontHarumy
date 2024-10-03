@@ -1,0 +1,246 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background-color: #555;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.produtos{
+    padding: 20px;
+    text-align: center;
+}
+.produto-lista{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.produto-item{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.produto-item img{
+    width: 100%;
+    height: auto;
+}
+.produto-gra{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    margin-top: 18px;
+    padding: 10px;
+    text-align: center;
+}
+.entrar{
+    height: 40px;
+    width: 90px;
+    background-color :#333;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 1px;
+}
+.cadastrar{
+    height: 40px;
+    width: 110px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 5px;
+    margin-right: 10px;
+}
+.contas{
+    height: 40px;
+    width: 105px;
+    background-color:#333;
+    color:  #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 5px;
+    margin-right: 10px;
+}
+.entrar:hover {
+    background-color: #000;
+    color: #fff;
+}
+.cadastrar:hover {
+    background-color: #000;
+    color: #fff;
+}
+.contas:hover {
+    background-color: #000;
+    color: #fff;
+}
+.questao {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.9em;
+    margin-top: 30px;
+    margin-left: 15%;
+    align-items: center;
+}
+.rectangle1{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 600px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle2{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 700px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle3{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 700px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle4{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 700px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+h3{
+    margin-top: -28px;
+    margin-left: 70px;
+}
+button.option{
+    padding: 10px 10px;
+    margin: 10px;
+    margin-top: 1px;
+    background-color: #fcfcfc;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border-radius: 45%;
+    width: 10px;
+    height: 10px;
+}
+  button.option.active{
+    background-color: #000000;
+}
+.BotaoProximo{
+    display: flex;
+    align-items: center;
+    height: 40px; /* Centraliza verticalmente */
+    border-radius: 5px;
+}
+.BotaoProximo button {
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.BotaoProximo button:hover {
+    background-color: #00b386;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+.BotaoProximo button:active {
+    background-color: #007a64;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98); /* Leve redução ao clicar */
+}
+.BotaoProximo button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 255, 145, 0.5);
+}
+.q1 {
+    background-color: transparent;
+    background-color :#333;
+    border: 3px solid rgba(255, 255, 255, 0.719);
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+#resultados {
+    display: block;
+}
+.seta {
+    cursor: pointer;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-left: 1400px;
+}
