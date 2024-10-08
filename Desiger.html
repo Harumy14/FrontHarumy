@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Desiger.css">
+        <script src="js/Desiger.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Designer.webp" class="result-image" id="resultadoImagem" onclick="showModalDesiger()"><h2>Desiger. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalDesiger" class="modaldesiger">
+            <div class="modal-content-desiger">
+                <span class="close" onclick="hideModalDesiger('Desiger')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM DESIGER!</h3>
+                        <h4>O perfil design, é alguém que trabalha na criação e concepção de soluções visuais para</h4>
+                        <h4>uma variedade de propósitos e contextos.</h4>
+                        <h4>Isso pode incluir design gráfico, design de produto, design de interação,</h4>
+                        <h4>design de experiência do usuário (UX), design de interface do usuário (UI), entre outros campos.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A remuneração total mensal estimada para o cargo de Designer é de R$ 4.083, com uma média salarial mensal de R$ 3.750.</h4>
+                        <h4>Esses números representam a mediana, que é o ponto médio dos intervalos do nosso modelo</h4>
+                        <h4>proprietário de Estimativa de Pagamento Total e é baseado nos salários coletados de nossos usuários.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

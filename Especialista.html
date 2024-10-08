@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Especialista.css">
+        <script src="js/Especialista.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Especialista_Técnico.gif" class="result-image" id="resultadoImagem" onclick="showModalEspecialista()"><h2>Especialista. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalEspecialista" class="modalespecialista">
+            <div class="modal-content-especialista">
+                <span class="close" onclick="hideModalEspecialista('Especialista')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM ESPECIALISTA!</h3>
+                        <h4>O perfil especialista, garante o atendimento eficiente de todos os tipos de requisito técnico,</h4>
+                        <h4>reparo, instalação, apoiar novas necessidades de equipamentos</h4>
+                        <h4>e serviços relacionados com qualquer um dos produtos comercializados pela empresa</h4>
+                        <h4>contribuindo para a satisfação de todos os seus clientes análise.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A remuneração total mensal estimada para o cargo de Tecnico Especializado</h4>
+                        <h4>é de R$ 220.833.019, com uma média salarial mensal de R$ 173.108.416.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

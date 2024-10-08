@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Gestor.css">
+        <script src="js/Gestor.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Gestor_de_Projetos.jpg" class="result-image" id="resultadoImagem" onclick="showModalGestor()"><h2>Gestor. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalGestor" class="modalgestor">
+            <div class="modal-content-gestor">
+                <span class="close" onclick="hideModalGestor('Gestor')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM GESTOR!</h3>
+                        <h4>O perfil gesrtor, é aquele profissional responsável por</h4>
+                        <h4>organizar os objetivos da empresa, planejar as</h4>
+                        <h4>metas e delegar as tarefas para que os</h4>
+                        <h4>colaboradores consigam colocar em prática o</h4>
+                        <h4>que a empresa almeja.</h4>
+                        <h4>Sendo assim, ele tem</h4>
+                        <h4>um papel essencial na rotina empresarial.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A remuneração total mensal estimada para o cargo de Gestor é de R$8.500,</h4>
+                        <h4> com uma média salarial mensal de R$ 7.000.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

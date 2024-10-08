@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Home_Office.css">
+        <script src="js/Home_Office.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Home_Office.jpg" class="result-image" id="resultadoImagem" onclick="showModalHome_Office()"><h2>Home Office. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalHome_Office" class="modalhome_office">
+            <div class="modal-content-home_office">
+                <span class="close" onclick="hideModalHome_Office('Home_Office')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM HOME OFFICE!</h3>
+                        <h4>O perfil Home office, em tradução literal para o nosso idioma, significa “escritório em casa”.</h4>
+                        <h4>E é justamente isso que o termo representa.</h4>
+                        <h4>Ou seja, quando alguém está trabalhando em home office, está usando a própria casa como escritório.</h4>
+                        <h4>Nesse caso, o trabalhador utiliza o mesmo ambiente para trabalhar e viver.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>No cargo de Home Office se inicia ganhando R$ 1.232,00 de salário e pode vir a ganhar até R$ 2.256,00.</h4>
+                        <h4>A média salarial para Home Office no Brasil é de R$ 1.520,00.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

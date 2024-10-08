@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style4.2.css">
-        <script src="js/script4.2.js"></script>
+        <link rel="stylesheet" href="css/style8.3.css">
+        <script src="js/script8.3.js"></script>
         <title>Quiz de Profissões</title>
     </head>
     <body>
@@ -24,29 +24,31 @@
             <button class="q1">2</button>
             <button class="q1">3</button>
             <button class="q1">4</button>
+            <!--Criado-->
             <button class="q1">5</button>
             <button class="q1">6</button>
             <button class="q1">7</button>
+            <button class="q1">8</button>
 
             <div class="questao-container">
-                <div class="questao"><h2>4. Como você lida com tarefas repetitivas?</h2>
+                <div class="questao"><h2>7.Como você prefere aprender programação ou se vc quisesse fazer?</h2>
                     <div class="rectangle1">
-                        <button class="option" onclick="myFunction()"></button><h3>a. Sigo um processo eficiente para garantir que tudo seja feito corretamente e rapidamente.</h3>
+                        <button class="option" onclick="myFunction()"></button><h3>a. Por meio de tutoriais online e cursos interativos.</h3>
                     </div>
                     <div class="rectangle2">
-                        <button class="option" onclick="myFunction()"></button><h3>b. Procuro maneiras de otimizar e melhorar o processo.</h3>
+                        <button class="option" onclick="myFunction()"></button><h3>b. Trabalhando em equipe em um projeto prático.</h3>
                     </div>
                     <div class="rectangle3">
-                        <button class="option" onclick="myFunction()"></button><h3>c. Busco ajuda de colegas para tornar as tarefas mais interessantes.</h3>
+                        <button class="option" onclick="myFunction()"></button><h3>c. Lendo livros e artigos aprofundados sobre teorias e melhores práticas.</h3>
                     </div>
                     <div class="rectangle4">
-                        <button class="option" onclick="myFunction()"></button><h3>d. Tento adicionar um toque pessoal ou inovador para manter a tarefa interessante.</h3>
+                        <button class="option" onclick="myFunction()"></button><h3>d. Experimentando com projetos pessoais e aprendendo com os erros.</h3>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="seta" onclick="redirect()">&#8594;</div> <!-- Seta para próxima pergunta -->
-          </div>
+            <div class="BotaoProximo">
+                <button onclick="exibirResultado()">Finalizar</button>
+            </div>
         </div>
         <div id="resultados"></div>
 

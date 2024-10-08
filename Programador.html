@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Programador.css">
+        <script src="js/Programador.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Programador.jpg" class="result-image" id="resultadoImagem" onclick="showModalProgramador()"><h2>Programador. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalProgramador" class="modalprogramador">
+            <div class="modal-content-programador">
+                <span class="close" onclick="hideModalProgramador('Programador')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM PROGRAMADOR!</h3>
+                        <h4>O perfil programador, ele criar, projetar e implementar soluções digitais,</h4>
+                        <h4>englobando desde aplicativos e sites até sistemas de gerenciamento de dados ou softwares.</h4>
+                        <h4>Além disso, o programador realiza atividades como depuração de erros (debugging),</h4>
+                        <h4>otimização de códigos e implementação de melhorias em softwares existentes.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>No cargo de Técnico de TI se inicia ganhando R$ 1.453,00 de salário e pode vir a ganhar até R$ 2.460,00.</h4>
+                        <h4>A média salarial para Técnico de TI no Brasil é de R$ 1.828,00.</h4>
+                        <h4>A formação mais comum é de Graduação em Informática.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

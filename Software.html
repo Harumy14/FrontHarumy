@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Software.css">
+        <script src="js/Software.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Desenvolvedor_de_Software.jpg" class="result-image" id="resultadoImagem" onclick="showModalSoftware()"><h2> Desenvolvedor de Software. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalSoftware" class="modalsoftware">
+            <div class="modal-content-software">
+                <span class="close" onclick="hideModalSoftware('Software')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM DESENVOLVEDOR DE SOFTWARE!</h3>
+                        <h4>O perfil Desenvolvedor de Software  é responsável pela programação, que é o processo de escrita, teste e manutenção de um programa de computador.</h4>
+                        <h4>Utiliza como subsídio o levantamento de requisitos e as análises feitas pelo analista de sistemas.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A mediana salarial de Desenvolvedor de Software junior é de R$5.067,50, e para profissionais seniores, a mediana salarial é de R$12.069,00.</h4>
+                        <h6>QUAL A FUNÇÃO DO DESENVOLVEDOR DE SOFTWARE?</h6>
+                        <h4>· Responsável pela programação;</h4>
+                        <h4>· Processo de escrita, teste;</h4>
+                        <h4>· Manutenção de um programa de computador. </h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

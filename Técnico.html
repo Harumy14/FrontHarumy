@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Tecnico.css">
+        <script src="js/Tecnico.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/analista-de-suporte-técnico.jpg" class="result-image" id="resultadoImagem" onclick="showModalTecnico()"><h2> Analista de Suporte Técnico. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalTecnico" class="modaltecnico">
+            <div class="modal-content-tecnico">
+                <span class="close" onclick="hideModalTecnico('Tecnico')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM ANALISTA DE SUPORTE TÉCNICO!</h3>
+                        <h4>O perfil Analista de Suporte Técnico ele presta suporte técnico à usuários, aplicando treinamentos de utilização, realizando a gestão de chamados e tirando dúvidas.</h4>
+                        <h4>em o dever de identificar e solucionar problemas técnicos,</h4>
+                        <h4>além de garantir o cumprimento de requisições.</h4>
+                        <h4>Em seu dia dia, pode assumir funções como: Elaborar documentações técnicas.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>No cargo de Analista de TI se inicia ganhando R$ 2.253,00 de salário e pode vir a ganhar até R$ 4.641,00.</h4>
+                        <h4>A média salarial para Analista de TI no Brasil é de R$ 3.115,00.</h4>
+                        <h6>QUAL A FUNÇÃO DO ANALISTA DE SUPORTE TÉCNICO?</h6>
+                        <h4>· Administrar ambientes informatizados;</h4>
+                        <h4>· Prestar suporte técnico ao usuário;</h4>
+                        <h4>· Treinamento, elaborar documentação técnica. </h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

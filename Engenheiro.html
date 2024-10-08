@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Engenheiro.css">
+        <script src="js/Engenheiro.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/analista-de-suporte-técnico.jpg" class="result-image" id="resultadoImagem" onclick="showModalEngenheiro()"><h2> Engenheiro de QA. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalEngenheiro" class="modalengenheiro">
+            <div class="modal-content-engenheiro">
+                <span class="close" onclick="hideModalEngenheiro('Engenheiro')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM ENGENHEIRO DE QA!</h3>
+                        <h4>O perfil Engenheiro de QA (Garantia de Qualidade) para desenvolver e executar testes exploratórios e automatizados</h4>
+                        <h4>visando garantir a qualidade de nossos produtos.</h4>
+                        <h4>As responsabilidades do Engenheiro de QA incluem projetar e implementar testes e depurar e definir ações corretivas.</h4>
+                        <h4>Basicamente, os QAs são responsáveis por testar, analisar e validar todas funcionalidades após o desenvolvimento de um produto pelos Devs e, caso encontre algum erro ou “bug”, o QA precisa sugerir correções e melhorias com o intuito de garantir qualidade no que será entregue ao cliente.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A remuneração total mensal estimada para o cargo de Qa Engineer é de R$ 251.240.461, com uma média salarial mensal de R$ 238.075.120.</h4>
+                        <h6>QUAL A FUNÇÃO DO ENGENHEIRO DE QA?</h6>
+                        <h4>· Administrar ambientes informatizados;</h4>
+                        <h4>· Prestar suporte técnico ao usuário;</h4>
+                        <h4>· Treinamento, elaborar documentação técnica. </h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

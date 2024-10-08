@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Escritório.css">
+        <script src="js/Escritório.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Escritório.jpg" class="result-image" id="resultadoImagem" onclick="showModalEscritorio()"><h2>Escritório. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalEscritorio" class="modalescritorio">
+            <div class="modal-content-escritorio">
+                <span class="close" onclick="hideModalEscritorio('Escritorio')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM ESCRITORIO!</h3>
+                        <h4>O perfil Escritório corporativo é aquele no qual um negócio será montado.</h4>
+                        <h4>Um espaço voltado para comportar os funcionários e, dependendo do</h4>
+                        <h4>modelo do empreendimento, para também atender aos clientes.</h4>
+                        <h4>Os profissionais dessa divisão gerenciam documentos e detém técnicas para o crescimento da empresa, seja qual for o segmento.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A média salarial do cargo de Escritório (Brasil) é de R$ 79.550.972 por mês.</h4>
+                        <h4> As estimativas de salários têm como base 6 salários enviados de forma sigilosa ao Glassdoor por pessoas com o cargo de Escritório nessa localização (Brasil).</h4>
+                        <h4>O maior salário do cargo de Escritório (Brasil) é de R$ 89.633.022 por mês.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>
